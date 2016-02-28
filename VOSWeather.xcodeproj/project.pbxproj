@@ -13,6 +13,16 @@
 		F1EAC66A1C821DE000844A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1EAC6691C821DE000844A6E /* Assets.xcassets */; };
 		F1EAC66D1C821DE000844A6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1EAC66B1C821DE000844A6E /* LaunchScreen.storyboard */; };
 		F1EAC6781C821DE000844A6E /* VOSWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC6771C821DE000844A6E /* VOSWeatherTests.swift */; };
+		F1EAC6841C821FFA00844A6E /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC6831C821FFA00844A6E /* WeatherManager.swift */; };
+		F1EAC6851C821FFA00844A6E /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC6831C821FFA00844A6E /* WeatherManager.swift */; };
+		F1EAC6871C822E1D00844A6E /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC6861C822E1D00844A6E /* CurrentWeather.swift */; };
+		F1EAC6881C822E1D00844A6E /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC6861C822E1D00844A6E /* CurrentWeather.swift */; };
+		F1EAC68A1C8310AD00844A6E /* weathericons-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1EAC6891C8310AD00844A6E /* weathericons-regular-webfont.ttf */; };
+		F1EAC68B1C8310AD00844A6E /* weathericons-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1EAC6891C8310AD00844A6E /* weathericons-regular-webfont.ttf */; };
+		F1EAC68D1C832E7300844A6E /* WeatherDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC68C1C832E7300844A6E /* WeatherDetails.swift */; };
+		F1EAC68E1C832E7300844A6E /* WeatherDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC68C1C832E7300844A6E /* WeatherDetails.swift */; };
+		F1EAC6901C833FD200844A6E /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC68F1C833FD200844A6E /* Forecast.swift */; };
+		F1EAC6911C833FD200844A6E /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC68F1C833FD200844A6E /* Forecast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,11 @@
 		F1EAC6731C821DE000844A6E /* VOSWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VOSWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1EAC6771C821DE000844A6E /* VOSWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VOSWeatherTests.swift; sourceTree = "<group>"; };
 		F1EAC6791C821DE000844A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1EAC6831C821FFA00844A6E /* WeatherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		F1EAC6861C822E1D00844A6E /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		F1EAC6891C8310AD00844A6E /* weathericons-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "weathericons-regular-webfont.ttf"; sourceTree = "<group>"; };
+		F1EAC68C1C832E7300844A6E /* WeatherDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDetails.swift; sourceTree = "<group>"; };
+		F1EAC68F1C833FD200844A6E /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +92,7 @@
 		F1EAC6611C821DDB00844A6E /* VOSWeather */ = {
 			isa = PBXGroup;
 			children = (
+				F1EAC6821C821FC900844A6E /* Weather */,
 				F1EAC6621C821DDB00844A6E /* AppDelegate.swift */,
 				F1EAC6641C821DDC00844A6E /* ViewController.swift */,
 				F1EAC6661C821DDD00844A6E /* Main.storyboard */,
@@ -94,6 +110,18 @@
 				F1EAC6791C821DE000844A6E /* Info.plist */,
 			);
 			path = VOSWeatherTests;
+			sourceTree = "<group>";
+		};
+		F1EAC6821C821FC900844A6E /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				F1EAC6831C821FFA00844A6E /* WeatherManager.swift */,
+				F1EAC6861C822E1D00844A6E /* CurrentWeather.swift */,
+				F1EAC6891C8310AD00844A6E /* weathericons-regular-webfont.ttf */,
+				F1EAC68C1C832E7300844A6E /* WeatherDetails.swift */,
+				F1EAC68F1C833FD200844A6E /* Forecast.swift */,
+			);
+			path = Weather;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +207,7 @@
 			files = (
 				F1EAC66D1C821DE000844A6E /* LaunchScreen.storyboard in Resources */,
 				F1EAC66A1C821DE000844A6E /* Assets.xcassets in Resources */,
+				F1EAC68A1C8310AD00844A6E /* weathericons-regular-webfont.ttf in Resources */,
 				F1EAC6681C821DDD00844A6E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1EAC68B1C8310AD00844A6E /* weathericons-regular-webfont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +227,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1EAC6841C821FFA00844A6E /* WeatherManager.swift in Sources */,
+				F1EAC68D1C832E7300844A6E /* WeatherDetails.swift in Sources */,
 				F1EAC6651C821DDC00844A6E /* ViewController.swift in Sources */,
+				F1EAC6871C822E1D00844A6E /* CurrentWeather.swift in Sources */,
+				F1EAC6901C833FD200844A6E /* Forecast.swift in Sources */,
 				F1EAC6631C821DDB00844A6E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,7 +240,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1EAC6851C821FFA00844A6E /* WeatherManager.swift in Sources */,
+				F1EAC68E1C832E7300844A6E /* WeatherDetails.swift in Sources */,
+				F1EAC6881C822E1D00844A6E /* CurrentWeather.swift in Sources */,
 				F1EAC6781C821DE000844A6E /* VOSWeatherTests.swift in Sources */,
+				F1EAC6911C833FD200844A6E /* Forecast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
